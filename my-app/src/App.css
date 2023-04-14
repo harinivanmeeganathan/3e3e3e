@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  max-height: 100vh;
+  height: 100%;
+  width: 100%;
+  margin-top:2%
+
+}
+/* 
+.logo {
+  height: 20vmin;
+  align-content: flex-end;
+} */
+img {
+  position: flex;
+  height: 200px;
+  margin: auto;
+}
+html,body,#root {
+  height: 100%;
+}
+
+
+.App-header {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+div.card-container {
+  margin-top: 5%;
+  flex: 1;
+  /* margin: 0 auto;  */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  max-height: 200px;
+  grid-gap: 15px;
+  width: 20%;
+  margin-left: 40%;
+ }
+ @media (max-width: 400px){
+  div.card-container {
+  width: 10%;
+  margin-left: 20%;
+  }
+}
+
+
+button{
+    /* position: relative;
+    display: inline-block; */
+    /* padding: 8px 20px; */
+    /* margin-top: 15px;
+    background: #fff;
+    color: #000; */
+    min-width: 110px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Lusitana", Sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #fff;
+    /* box-shadow: 0 5px 15px rgba(0,0,0,0.25);  */
+    border-top: 2px solid ;    
+    border-left: 2px solid;
+    border-top-color: #de1a1a;
+    border-left-color: #de1a1a;
+    cursor: pointer;
+}
+button:hover {
+  opacity: 0.5;
+}
